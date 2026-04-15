@@ -29,4 +29,4 @@ if "text" in st.session_state:
             mime="text/plain"
         )
 else:
-st.info("Generate content first")
+    st.info("Generate content first")
