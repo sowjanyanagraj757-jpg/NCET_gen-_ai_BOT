@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("PragyanAI Content Generator", layout="wide")
-st.title("PragyanAI – Content Generator")
+st.title("Sowjanya – Content Generator")
 st.image("tree.jpg")
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["AGI"])
